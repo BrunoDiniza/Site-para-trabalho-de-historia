@@ -1,0 +1,197 @@
+/* Reset básico para margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilização geral do corpo */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    color: #333;
+}
+
+/* Estilização do elemento principal */
+main {
+    max-width: 850px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+/* Estilização das seções */
+section {
+    margin-bottom: 20px;
+}
+
+/* Estilização dos títulos das seções */
+h2 {
+    color: #333;
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+/* Estilização dos parágrafos */
+p {
+    margin-bottom: 20px;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* Estilização do texto em itálico */
+i {
+    font-style: italic;
+    color: #007bff;
+}
+
+/* Estilização dos links */
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Estilização para botões */
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Estilização para botões desativados */
+button:disabled {
+    background: #ddd;
+    cursor: not-allowed;
+}
+
+/* Estilização de imagens */
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilização de listas */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilização das tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #f4f4f4;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* Estilização de formulários */
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background: #0056b3;
+}
+
+/* Estilização de rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* Outros estilos existentes */
+
+/* Estilos para o botão */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
